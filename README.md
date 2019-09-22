@@ -37,7 +37,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-###物联网导论 第八章 移动通信技术
+### 物联网导论 第八章 移动通信技术
 
 移动通信技术使得信息的交互不再受到距离的阻隔
 
@@ -46,6 +46,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 出门，钱包、钥匙、钱都不用拿，现在已经可以实现。
 
-##8.1 移动通信发展历史
+## 8.1 移动通信发展历史
 
 
