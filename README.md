@@ -1,56 +1,24 @@
--# cyz0610.github.io
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/cyz0610/cyz0610.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cyz0610/cyz0610.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
 # 物联网导论 第八章 移动通信技术
 
 移动通信技术使得信息的交互不再受到距离的阻隔
 
 完整物联网系统：
-	前端信息生成、中间传输网络、后端应用平台
+	- 前端信息生成
+	- 中间传输网络
+	- 后端应用平台
 
 出门，钱包、钥匙、钱都不用拿，现在已经可以实现。
 
 ## 8.1 移动通信发展历史
 
-无线电话：无绳电话、移动电话
+无线电话：
+	- 无绳电话
+	- 移动电话
 
-移动通信三代的发展：模拟语音、数字语音、数字语音和数据。
+移动通信三代的发展：
+	1. 模拟语音
+	2. 数字语音
+	3. 数字语音和数据。
 
 ### 8.1.1 第一代移动通信：模拟语音
 
@@ -60,16 +28,15 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 20世界60年代，改进移动电话系统（IMTS），也是设在山顶，但有两个频率，一个接收一个发送。
 
-1982年，贝尔实验室发明高级移动电话系统（AMPS），提出蜂窝单元。保证相邻单元使用不同的频率，较远的单元使用相同频率，避免频率冲突，可让频率多次使用，充分利用资源。
-所有基站都会连接到移动电话交换局（MTSO），分层机制。
+1982年，贝尔实验室发明高级移动电话系统（AMPS），提出*蜂窝单元*。保证相邻单元使用不同的频率，较远的单元使用相同频率，避免频率冲突，可让频率多次使用，充分利用资源。所有基站都会连接到移动电话交换局（MTSO），分层机制。
 
 ### 8.1.2 第二代移动通信：数字语音
 
 GSM：
-	运行在多个不同的无线电频率上，用户连接最近的。
-	时分复用技术，多个时槽，供用户不同时间共享。
-	频分复用技术，每一部电话在发送数据的同时，可以另外在一个高50Hz的频率上接收数据。
-	支持自动漫游和自动切换，较强的安全性能和抗干扰能力。
+	- 运行在多个不同的无线电频率上，用户连接最近的。
+	- 时分复用技术，多个时槽，供用户不同时间共享。
+	- 频分复用技术，每一部电话在发送数据的同时，可以另外在一个高50Hz的频率上接收数据。
+	- 支持自动漫游和自动切换，较强的安全性能和抗干扰能力。
 GSM蜂窝大小分为：
 	宏蜂窝（楼顶山顶），微蜂窝（市区内），微微蜂窝（室内集中的地方），伞蜂窝（填补蜂窝间的空白区）。
 GSM系统后台网络：
@@ -85,14 +52,16 @@ CDMA：
 ### 8.1.3 第三代移动通信：数字语音与数据
 
 2.5G：
-	HSCSD（高速电路交换数据）（GSM升级版）
-	GPRS（分组通信，共享信道资源）
-	EDGE（支持更多数据位）
+	- HSCSD（高速电路交换数据）（GSM升级版）
+	- GPRS（分组通信，共享信道资源）
+	- EDGE（支持更多数据位）
 
 CDMA技术的三个标准：
-	IMT-DS,对应W-CDMA（中国联通）
-	IMT-MC,对应CDMA2000（中国电信）
-	IMT-TD,对应TD-SCDMA(中国移动)和UTRA-TDD
+	- IMT-DS,对应W-CDMA（中国联通）
+	- IMT-MC,对应CDMA2000（中国电信）
+	- IMT-TD,对应TD-SCDMA(中国移动)和UTRA-TDD
+
+## 8.2 3G通信技术和标准
 
 ### 8.2.1 TD-SCDMA
 
@@ -123,8 +92,8 @@ W-CDMA：有三条可利用的公共控制信道和两条专用信道
 
 ### 8.2.3 CDMA2000
 
-第一阶段：CDMA 2000 1X EV-DO，随后的多个版本，在Rev B（B版本）中，在物理层、MAC层和连接层分别增加了一些多载波相关的协议。
-第二阶段：CDMA 2000 1X EV-DV，具有后兼容性，上行下行速率更快。
+- 第一阶段：CDMA 2000 1X EV-DO，随后的多个版本，在Rev B（B版本）中，在物理层、MAC层和连接层分别增加了一些多载波相关的协议。
+- 第二阶段：CDMA 2000 1X EV-DV，具有后兼容性，上行下行速率更快。
 
 ## 8.3 移动互联网
 
@@ -143,13 +112,13 @@ W-CDMA：有三条可利用的公共控制信道和两条专用信道
 
 ### 8.3.5 其他应用
 
-WAP（无线应用协议） 将Internet内容和数据服务带入到电话终端。
+- WAP（无线应用协议） 将Internet内容和数据服务带入到电话终端。
 
-移动即时通信 QQ，微信 多终端。
+- 移动即时通信 QQ，微信 多终端。
 
-手机广告
+- 手机广告
 
-手机游戏
+- 手机游戏
 
 8.4 第四代移动通信系统
 
