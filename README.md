@@ -231,7 +231,7 @@ TLA-942标准：
 	对文件操作具有特定的模式（对大部分文件的修改，不是覆盖原有数据，而是在文件尾追加新数据；几乎不对文件进行随机写操作）。
 	应用程序和文件系统API的协同设计提高了整个系统的灵活性（减少一致性要求，引入原子性的追加操作）。
 
-[google file system 系统架构](http://static.open-open.com/lib/uploadImg/20120209/20120209125625_451.jpg)
+！[google file system 系统架构](http://static.open-open.com/lib/uploadImg/20120209/20120209125625_451.jpg)
 
 ### 9.3.2 MapReduce
 
